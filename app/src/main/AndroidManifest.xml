@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oa.computerclub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Computer Club"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComputerClub"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activity.PdfViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ShortcutKeyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.WebviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.GlossaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AbbrevationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.QuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/NoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/NoActionBarTheme" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3484512677298182~2202126584" />
+    </application>
+
+</manifest>

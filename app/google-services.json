@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "105581060139",
+    "project_id": "computer-lab-7dff3",
+    "storage_bucket": "computer-lab-7dff3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105581060139:android:5a5db5e655daa3595bca6e",
+        "android_client_info": {
+          "package_name": "com.oa.computerlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105581060139-non7speh068it98ln087skrdab204dm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUwJPE3fvSYQ5xZDf7xfWR3i_qoo5vhKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105581060139-non7speh068it98ln087skrdab204dm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
